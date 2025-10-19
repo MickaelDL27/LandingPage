@@ -14,3 +14,10 @@ Een conversiegerichte landingspagina, ontworpen om een specifieke actie te promo
 * **Formulierontwerp:** Schoon, overzichtelijk formulier met correct gebruik van HTML5 invoertypen en attributen.
 * **CSS Layout:** Effectief gebruik van Flexbox om secties te organiseren.
 
+---
+
+## 🚀 Setup en Hosting
+
+| Status | Link |
+| :--- | :--- |
+| **Live Demo** | **https://mickaeldl27.github.io/LandingPage/** |
