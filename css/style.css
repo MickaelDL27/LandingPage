@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #ececec;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    border-bottom: 1px solid #b2b0b0;
+}
+
+.name {
+    font-weight: bold;
+    color: #004d99; 
+    font-size: 1.1em;
+}
+
+.name .subtitle {
+    display: block;
+    font-size: 0.7em;
+    font-weight: normal;
+    color: #999;
+}
+
+.contact {
+    color: #666;
+    font-size: 0.9em;
+}
+
+
+.content {
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 20px 5%;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    color: #333;
+    margin: 40px 0;
+}
+
+.layout {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start; 
+}
+
+
+.info {
+    flex: 1;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.info h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    padding: 8px 0 8px 30px;
+    position: relative;
+    font-size: 1.1em;
+}
+
+.list li::before {
+    content: '✓'; 
+    color: #4a59bb; 
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.newsletter-tittle {
+    font-size: 1.3em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.newsletter-info {
+    line-height: 1.5;
+    font-size: 0.9em;
+}
+
+
+.form {
+    flex: 2;
+    padding: 15px;
+    background-color: rgb(167, 224, 255);
+    border-radius: 8px;
+}
+
+.form-container h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.ebook-image {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ebook-image img {
+    max-width: 450px;
+    height: auto;
+}
+
+.form-form {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 20px;
+}
+.form input {
+    width: 90%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+.privacy-info {
+    font-size: 0.85em;
+    color: #666;
+    margin-top: -5px; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4a59bb; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #3b479e;
+}
+
+
+@media (max-width: 768px) {
+    .layout {
+        flex-direction: column; 
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    .info, .form {
+        width: auto;
+    }
+}
